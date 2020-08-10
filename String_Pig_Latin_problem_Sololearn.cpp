@@ -3,6 +3,9 @@
 #include <algorithm>
 using namespace std;
 
+//Problem is to convert every word of entered string to child code, where first letter goes to the end of the word and to this new word "ay" is appended
+//Used algorithms find, append, substr, find_last_of
+
 void changeStrPigLatin(string& str)
 {
     char temp = str[0];
